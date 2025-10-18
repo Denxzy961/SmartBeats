@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.song {
+  text-align: center;
+  padding: 25px;
+}
+
+.song img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.song audio {
+  width: 90%;
+  margin-top: 15px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button, .download-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.support-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.download-btn {
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+}
+
+button:hover, .download-btn:hover {
+  opacity: 0.85;
+}
+
+.lyrics {
+  background: #fff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.lyrics pre {
+  white-space: pre-wrap;
+  font-size: 15px;
+}
+
+.comments {
+  background: #f0f0f0;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 8px;
+}
+
+.comments textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  resize: none;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.comments button {
+  background-color: #4e4376;
+  color: white;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #00bfff;
+}
